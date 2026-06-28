@@ -37,6 +37,7 @@ import m29 from "@/assets/gallery/mehandi-29.jpeg";
 import m30 from "@/assets/gallery/mehandi-30.jpeg";
 import m31 from "@/assets/gallery/mehandi-31.jpeg";
 import poojaPortrait from "@/assets/pooja-portrait.jpeg";
+import poojaAbout from "@/assets/pooja2.jpeg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -529,7 +530,7 @@ function About() {
           className="relative"
         >
           <div className="relative aspect-[4/5] w-full max-w-[460px] mx-auto rounded-[2rem] overflow-hidden gold-border shadow-[0_30px_80px_-25px_color-mix(in_oklab,var(--royal)_55%,transparent)]" data-cursor="image">
-            <img src={poojaPortrait} alt="Pooja Mehandi artist" className="h-full w-full object-cover" />
+            <img src={poojaAbout} alt="Pooja Mehandi artist" className="h-full w-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-[var(--royal-deep)]/45 to-transparent" />
           </div>
           <div className="absolute -bottom-6 -right-2 sm:-right-8 glass-card rounded-2xl px-5 py-4 max-w-[230px]">
